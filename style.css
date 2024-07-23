@@ -1,0 +1,292 @@
+
+
+.header{
+    background-color: #460c46;
+    padding: 20px;
+}
+.header img {
+    height: 100px;
+    width: 200px;
+    text-align: justify;
+    
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color:#FFE039;
+    text-align: center;
+    padding: 10px;
+
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(71, 28, 71);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-right: 30px;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color:rgba(243, 214, 129, 0.959);
+    color:rgb(219, 165, 219);
+  }
+ /* .card one{
+border:15px;
+border-radius: 10px;
+border-style: groove;
+text-align: right;
+float: right;
+ } */
+
+ .card-section {
+  display: inline-block;
+  /* font-size: larger; */
+  /* flex-direction: column; */
+  /* justify-content:space-between; */
+  padding: 20px;
+  /* align-items: center; */
+  background-color: peachpuff;
+  /* flex-wrap: wrap; */
+  margin: 100px;
+ height:  200px;
+ width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  
+
+ }
+
+ .cards{
+  /* display: inline-block; */
+background-color: #FFF9D8;
+  /* border: 1px solid #e7dfb0;
+  border-radius: 15px;
+  padding: 20px;
+  width: calc(25% - 40px);
+  margin : 20px;
+  box-sizing: border-box; */
+  /* vertical-align: top; */
+text-align: center;
+  /* flex: 1; */
+  /* max-width: 200px; */
+  /* width: calc(25% - 20px); */
+  
+  /* margin: 10px; */
+  box-shadow: 0 2px 4px rgba(0,0,0, 0.1);
+  /* box-sizing: border-box; */
+ }
+    /* .cards{
+      display: flex;
+      justify-content: ;
+
+      text-align: center;
+      height: 100px;
+      max-width: 100px;
+      border:15px;
+      border-radius: 10px;
+      border-style: groove; */
+      /* text-align: right; */
+       /* float: right;  */
+    
+      /* border-radius: 10px; */
+    /* } */
+    .core{
+      text-align: center;
+      font-size: 50px;
+    }
+    .candy{
+      position: absolute;
+      width: 70%;
+      background-color: white;
+      left: 10%;
+      padding: 30px;
+    }
+    .my-image{
+      float: right;
+      width: 30%;
+    }
+    /* .icons{
+      display: flex;
+      width: 100%;
+      height: 100vh; */
+
+    /* } */
+  
+  /* Footer */
+  .footer {
+    padding: 30px;
+    text-align: center;
+    background: #460c46;
+    /* margin: 20px; */
+    
+  }
+  .footer p{
+    color: #e7dfb0;
+  }
+  iframe{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    /* max-width: 100%; */
+    margin: 0;
+  }
+  #corner{
+      border-radius: 0px  200px 200px 0px;
+      background :#c7bdbd;
+      padding: 20px;
+      width: 300px;
+      height: 200px;
+      margin-left: 0;
+      box-shadow: 500px;
+      left: 0;
+      display: inline-block;
+  }
+  /* .first{
+    font-weight: bold;
+  } */
+  .text-2{
+    float: right;
+    /* text-indent: 300px; */
+     padding-left: -3px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 200;
+    margin-left: 0px;
+    position: absolute; 
+    top: 30%;
+    left:50%;
+    transform:(0, -50%);
+    font-size: 20px;
+    transition: transform 1s;
+  }
+  .text-2:hover{
+    transition: transform 2s ease-in-out;
+    transition: translateX(100%);
+    color: purple;
+    font-size: larger;
+  }
+  .MAID{
+    background-color: #fbd4d4;  
+  }
+  .how{
+    background-color: #c7bdbd;
+  }
+  .flyer{
+    background-color: #fbd4d4;
+    width: 50px;
+    height: 50px;
+  }
+  
+    /* background-color: white; */
+  .royal{
+    background-color: white;
+   }
+   .hub{
+    background-color: #D9D9D9;
+    display: inline;
+   }
+    
+  .banner-card{
+    position: relative;
+  }
+  .banner-card img{
+    /* max-width: 100%; */
+    height: 50%;
+    width: 100%;
+    /* display: flex; */
+  }
+  .banner-text{
+   position: relative;
+   width: 100%;
+   margin-top: -40%;
+  }
+  .banner-text h4{
+    
+   font-family: lobster;
+    color: goldenrod;
+    left: 25%;
+    text-align: center;
+  }
+  #links{
+    float: right;
+    display: block;
+    
+  }
+   h4{
+    /* color: #e7dfb0; */
+    border: 1px;
+    /* background-color: #460c46; */
+    text-align: justify;
+    margin-left: 5%;
+    color: goldenrod;
+    font-weight: 500;
+   }
+   .img{
+    width: fit-content;
+    height: max-content;
+   }
+   .full-width-img{
+    width: 100vw;
+    height: 250px;
+    height: 380px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+   }
+   .texts{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center; 
+    color: goldenrod;
+    background-color: transparent;
+    font-size: 80px;
+    padding-top: 150px;
+   }
+   .header-6{
+    text-align: center;
+
+   }
+   .works{
+    margin-left: 10px;
+    margin-right: 10px;
+   }
+   .enroll{
+    background-color: #fbd4d4;
+   }
+   /* .codelogo{
+    width: 50%;
+    height: 30%;
+    margin: 0;
+   } */
+   .footer img{
+    width: 200px;
+    height: 150px;
+    float: left;
+   }
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+} */
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+} */
+ 
