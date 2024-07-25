@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="services.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"> -->
       <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
     </svg> 
   <!-- <style type="style.css">
@@ -46,7 +46,7 @@
   <a href="contact.html">CONTACT</a>
 </div>
 <div>
-  <img src="img\application image.png"style=filter:brightness(0.5) class="full-width-image">
+  <img src="img/apply image.PNG"style=filter:brightness(0.5) class="full-width-image">
   <span class="text7" style="font-size: 100px;">Application</span>
 </div>
 
@@ -76,10 +76,10 @@
 	<div class="form-group">
 		<label for="gender" class="label">
 			Gender:
-			<input type="radio" id="male" name="gender" value="male" class="radio">
-			<label for="male" class="radio-label">Male</label>
-			<input type="radio" id="female" name="gender" value="female" class="radio">
-			<label for="female" class="radio-label">Female</label>
+			<input type="radio" style="position: relative;margin-left: -370px; bottom: -25px;" id="male" name="gender" value="male" class="radio">
+			<label for="male" class="radio-label" style=" margin-left: 28px;">Male</label>
+			<input type="radio" style="position: relative;margin-left: -310px; bottom: -25px;" id="female" name="gender" value="female" class="radio">
+			<label for="female" class="radio-label" style="margin-left:28px ;">Female</label>
 			<div class="underline"></div>
 		</label>
 	</div>
@@ -124,14 +124,14 @@
 	<div class="form-group">
 		<label for="education" class="label">
 			<p style="font-family: Inria Sans; text-transform: capitalize; font-size:14px ; font-weight: 700; color: purple; text-align: start;">Education Level:</p>
-			<input type="radio" id="primary" name="education" value="primary">
-			<label for="primary" class="radio-label">Primary School</label>
-			<input type="radio" id="secondary" name="education" value="secondary">
-			<label for="secondary" class="radio-label">Secondary School</label>
-			<input type="radio" id="vocational" name="education" value="vocational">
-			<label for="vocational" class="radio-label">Vocational Training</label>
-			<input type="radio" id="other" name="education" value="other">
-			<label for="other" class="radio-label">Other (please specify)</label>
+			<input type="radio" style="margin-left: -320px; position: relative ; bottom: -25px;" id="primary" name="education" value="primary">
+			<label for="primary" class="radio-label" style="margin-left: 18px;">Primary School</label>
+			<input type="radio" style="margin-left: -320px; position: relative ; bottom: -25px;" id="secondary" name="education" value="secondary">
+			<label for="secondary" class="radio-label" style="margin-left: 18px;">Secondary School</label>
+			<input type="radio" style="margin-left: -320px;position: relative ; bottom: -25px;" id="vocational" name="education" value="vocational">
+			<label for="vocational" class="radio-label" style="margin-left: 18px;">Vocational Training</label>
+			<input type="radio" style="margin-left: -320px;position: relative ; bottom: -25px;" style="margin-left: -320px;" id="other" name="education" value="other">
+			<label for="other" class="radio-label" style="margin-left: 18px;">Other (please specify)</label>
 			<input type="text" id="other-education" name="other-education" class="form-control">
 			<div class="underline"></div>
 		</label>
@@ -142,10 +142,10 @@
 	<div class="form-group">
 		<label for="work-experience" class="label">
 			Have you had any work experience?
-			<input type="radio" id="yes" name="work-experience" value="yes">
-			<label for="yes" class="radio-label">Yes</label>
-			<input type="radio" id="no" name="work-experience" value="no">
-			<label for="no" class="radio-label">No</label>
+			<input type="radio" style="position: relative;margin-left: -570px; bottom: -25px;" id="yes" name="work-experience" value="yes">
+			<label for="yes" class="radio-label" style=" margin-left: 28px;">Yes</label>
+			<input type="radio" style="position: relative;margin-left: -310px; bottom: -25px;" id="no" name="work-experience" value="no">
+			<label for="no" class="radio-label"  style="margin-left:28px ;">No</label>
 		</label>
 		
 		<h3>If Yes:</h3>
@@ -162,10 +162,10 @@
 	<div class="form-group">
 		<label for="health-information" class="label">
 			Any medical conditions or allergies?
-			<input type="radio" id="yes" name="health-information" value="yes">
-			<label for="yes" class="radio-label">Yes</label>
-			<input type="radio" id="no" name="health-information" value="no">
-			<label for="no" class="radio-label">No</label>
+			<input type="radio"style="position: relative;margin-left: -570px; bottom: -25px;" id="yes" name="health-information" value="yes">
+			<label for="yes" class="radio-label" style=" margin-left: 28px;">Yes</label>
+			<input type="radio" style="position: relative;margin-left: -310px; bottom: -25px;" id="no" name="health-information" value="no">
+			<label for="no" class="radio-label"style="margin-left:28px ;">No</label>
 		</label>
 		
 		<div class="health-information-details">
@@ -176,48 +176,67 @@
 		</div>
 			
 		<h2 style="font-family: Inria Sans; text-transform: uppercase; font-size:19px ; font-weight: 700; color: purple; text-align: center;">Training Program Preference</h2>
+		
 		<div class="form-group">
+			<label for="education" class="label">
+				<p style="font-family: Inria Sans; text-transform: capitalize; font-size:14px ; font-weight: 700; color: purple; text-align: start;"> Level:</p>
+				<input type="radio" style="margin-left: -320px; position: relative ; bottom: -25px;" id="primary" name="education" value="primary">
+				<label for="primary" class="radio-label" style="margin-left: 18px;">Advanced-cooking</label>
+				<input type="radio" style="margin-left: -320px; position: relative ; bottom: -25px;" id="secondary" name="education" value="secondary">
+				<label for="secondary" class="radio-label" style="margin-left: 18px;">Nutrition</label>
+				<input type="radio" style="margin-left: -320px;position: relative ; bottom: -25px;" id="vocational" name="education" value="vocational">
+				<label for="vocational" class="radio-label" style="margin-left: 18px;">childcare-family-management</label>
+				<input type="radio" style="margin-left: -320px;position: relative ; bottom: -25px;" id="vocational" name="education" value="vocational">
+				<label for="vocational" class="radio-label" style="margin-left: 18px;">laundry</label>
+				<input type="radio" style="margin-left: -320px;position: relative ; bottom: -25px;" id="vocational" name="education" value="vocational">
+				<label for="vocational" class="radio-label" style="margin-left: 18px;">cleaning</label>
+				<input type="radio" style="margin-left: -320px;position: relative ; bottom: -25px;" id="vocational" name="education" value="vocational">
+				<label for="vocational" class="radio-label" style="margin-left: 18px;">gardening</label>
+			</label>
+		</div>
+		
+		
+		
+		<!-- <div class="form-group">
 			<label for="training-program" class="label">
 				Select the desired training program:
 			</label>
 			<div class="radio-container">
-				<label for="basic-home-care" class="radio-label">
-					<input type="radio" id="basic-home-care" name="training-program" value="basic-home-care">
-					Basic Home Care Skills
-					<br>
+				<label for="basic-home-care"  class="radio-label">
+					
 				</label>
-				<label for="advanced-cooking" class="radio-label">
-					<input type="radio" id="advanced-cooking" name="training-program" value="advanced-cooking">
+				<label for="advanced-cooking"  style="margin-left: -320px; position: relative ; bottom: -25px;">
+					<input type="radio" style="margin-left: 18px;" id="advanced-cooking" name="training-program" value="advanced-cooking">
 					Advanced Cooking
 					<br>
 				</label>
-				<label for="nutrition" class="radio-label">
-					<input type="radio" id="nutrition" name="training-program" value="nutrition">
+				<label for="nutrition"  style="margin-left: -320px; position: relative ; bottom: -25px;" class="radio-label">
+					<input type="radio" style="margin-left: 18px;" id="nutrition" name="training-program" value="nutrition">
 					Nutrition
 					<br>
 				</label>
-				<label for="childcare-family-management" class="radio-label">
-					<input type="radio" id="childcare-family-management" name="training-program" value="childcare-family-management">
+				<label for="childcare-family-management" style="margin-left: -320px; position: relative ; bottom: -25px;" class="radio-label">
+					<input type="radio" style="margin-left: 18px;" id="childcare-family-management" name="training-program" value="childcare-family-management">
 					Childcare and Family Management
 					<br>
 				</label>
-				<label for="laundry" class="radio-label">
-					<input type="radio" id="laundry" name="training-program" value="laundry">
+				<label for="laundry" style="margin-left: -320px; position: relative ; bottom: -25px;" class="radio-label">
+					<input type="radio" style="margin-left: 18px;" id="laundry" name="training-program" value="laundry">
 					Laundry
 					<br>
 				</label>
-				<label for="cleaning" class="radio-label">
-					<input type="radio" id="cleaning" name="training-program" value="cleaning">
+				<label for="cleaning"  style="margin-left: -320px; position: relative ; bottom: -25px;" class="radio-label">
+					<input type="radio"style="margin-left: 18px;" id="cleaning" name="training-program" value="cleaning">
 					Cleaning
 					<br>
 				</label>
-				<label for="gardening" class="radio-label">
-					<input type="radio" id="gardening" name="training-program" value="gardening">
+				<label for="gardening"  style="margin-left: -320px; position: relative ; bottom: -25px;" class="radio-label">
+					<input type="radio" style="margin-left: 18px;" id="gardening" name="training-program" value="gardening">
 					Gardening
 					<br>
 				</label>
 			</div>
-		</div>
+		</div> -->
 		
 		<h2>Emergency Contact</h2>
 
@@ -239,10 +258,10 @@
 	<label for="phone-number" class="label">
 		Phone Number:
 		<input type="tel" id="phone-number" name="phone-number">
-		<label for="phone-number" class="label">
+		<!-- <label for="phone-number" class="label">
 			Phone Number:
 			<input type="tel" id="phone-number" name="phone-number">
-		</label>
+		</label> -->
 		
 		
 		<div class="declaration">

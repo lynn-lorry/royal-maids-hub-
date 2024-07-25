@@ -55,13 +55,15 @@
   font-weight: 100px;
   background-color: transparent;
 }
-  .heading2{
+  /* .heading2{
     text-align: center;
-    font-weight:1000px ;
     color: purple;
     background-color: #FFF9D8;
     margin-left: -10%;
-  }
+    position: relative;
+    bottom: -30px;
+    font-size: 100px; */
+  /* } */
   .heading8{
     text-align: center;
     font-weight:1000px ;
@@ -136,14 +138,14 @@
   .image-text{
     color: purple;
     text-align: center;
-    font-weight: 1000px;
     float: left;
     width: 60%;
     padding-left:370px ;
     margin-top: -30px;
     margin-right:-250%;
     position: absolute;
-    font-weight: bold;
+    font-weight: 800;
+    font-size: 30px;
   
 
     /* top: 87%;
@@ -200,14 +202,14 @@ input:focus, textarea:focus {
   border-color: #BAA8A8;
   border-width: 1px;
 }
-iframe{
+/* iframe{
   width: 100%;
   height: auto;
   position: relative;
   margin: 0;
   display: flex;
-  margin-top: 30px;
-}
+  margin-top: 30px; */
+/* } */
 
 
   
@@ -261,6 +263,7 @@ form {
 
 .radio {
 	margin-right: 10px;
+  position: relative;
 }
 
 .radio-label {
@@ -322,10 +325,6 @@ form {
 	padding: 5px 10px;
 	font-size: 14px;
 }
-
-
-
-
 
 
 
